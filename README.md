@@ -132,3 +132,5 @@ python3 src/visualization/visualize.py
 Note that you need to have the raw dataset to view the visualizations.
 
 ## References
+
+Dale, D., Voronov, A., Dementieva, D., Logacheva, V., Kozlova, O., Semenov, N., & Panchenko, A. (2021). Text Detoxification using Large Pre-trained Neural Models. In *Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing* (pp. 7979–7996). Association for Computational Linguistics. [https://aclanthology.org/2021.emnlp-main.629](https://aclanthology.org/2021.emnlp-main.629)
