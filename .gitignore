@@ -3,3 +3,4 @@
 data/
 pyenv
 notebooks/logs
+models/SEQ2SEQ_LSTMs.pth
