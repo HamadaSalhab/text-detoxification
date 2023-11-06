@@ -91,7 +91,7 @@ text_detoxification
 
 ### Train
 
-To train the model, you can run the following command. Please make sure that the data is preprocessed before training the model (follow the previous steps).
+To train the model, you can run the following command from the root directory of the project. Please make sure that the data is preprocessed before training the model (follow the previous steps).
 
 ``` zsh
 python3 src/model/train_model.py --epochs 1
@@ -107,7 +107,7 @@ text_detoxification
 
 ### Predict
 
-To train the model, you can run the following command:
+To train the model, you can run the following command from the root directory of the project:
 
 ``` zsh
 python3 src/model/predict_model.py
@@ -120,5 +120,15 @@ text_detoxification
 └───models
     │   detox_model.pth
 ```
+
+### Visualize
+
+To view the initial data exploration visualizaitions, you can run the following command from the root directory of the project:
+
+``` zsh
+python3 src/visualization/visualize.py
+```
+
+Note that you need to have the raw dataset to view the visualizations.
 
 ## References
