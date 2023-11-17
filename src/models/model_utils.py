@@ -229,8 +229,8 @@ def create_model(device, checkpoint_path='./models/SEQ2SEQ_LSTMs.pth'):
     
     INPUT_DIM = len(reference_vocab)
     OUTPUT_DIM = len(translation_vocab)
-    ENC_EMB_DIM = 256
-    DEC_EMB_DIM = 256
+    ENC_EMB_DIM = 128
+    DEC_EMB_DIM = 128
     HID_DIM = 512
     N_LAYERS = 2
     ENC_DROPOUT = 0.5
