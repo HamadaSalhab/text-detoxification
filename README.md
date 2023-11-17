@@ -94,7 +94,7 @@ text_detoxification
 To train the model, you can run the following command from the root directory of the project. Please make sure that the data is preprocessed before training the model (follow the previous steps).
 
 ``` zsh
-python3 src/model/train_model.py --epochs 1
+python3 src/models/train_model.py --epochs 1
 ```
 
 This will save the model weigths in the following path:
@@ -110,7 +110,7 @@ text_detoxification
 To train the model, you can run the following command from the root directory of the project:
 
 ``` zsh
-python3 src/model/predict_model.py
+python3 src/models/predict_model.py
 ```
 
 This will load the model weigths and prompt you to enter a sentence in the terminal, and then the model will make a prediction for the detoxified version of the input. Please make sure there is a model in the following directory before trying to make predictions:
